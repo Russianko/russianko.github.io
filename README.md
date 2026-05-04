@@ -1,46 +1,18 @@
-# Resume static JS version
+# Resume IDE (Static JS)
 
-Это статическая версия сайта для GitHub Pages.
+Интерактивное резюме в формате IDE (в стиле VS Code), реализованное на чистом JavaScript без backend.
 
-## Что положить в репозиторий
+## 🚀 Демо
 
-- `index.html`
-- `404.html`
-- `app.js`
-- `content.js`
-- папку `static/` с твоим текущим `style.css` и ассетами
+👉 https://russianko.github.io/
 
-## Что больше не нужно для GitHub Pages
+---
 
-- `main.py`
-- `templates/`
-- `data/content.py`
-- FastAPI / uvicorn
-
-## Локальный запуск
-
-Лучше не открывать файл двойным кликом, а запустить простой сервер:
-
-```bash
-python -m http.server 8000
-```
-
-Потом открыть:
+## 📦 Структура проекта
 
 ```text
-http://localhost:8000
-```
-
-## Маршруты
-
-- `/ru/main`
-- `/ru/hard`
-- `/ru/soft`
-- `/ru/projects`
-- `/ru/experience`
-- `/ru/contact`
-- `/en/main`
-- `/en/hard`
-- и т.д.
-
-`404.html` нужен для GitHub Pages, чтобы прямые ссылки вроде `/ru/hard` тоже открывались.
+index.html
+app.js
+content.js
+static/
+  style.css
